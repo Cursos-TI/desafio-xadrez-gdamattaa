@@ -37,7 +37,7 @@ int main() {
     // Torre - movimento horizontal (para a direita)
     // usando for
     printf("Movimento da Torre:\n");
-    for (int i = 0; i <= 5; i++) {
+    for (int i = 1; i <= 5; i++) {
         printf("Direita\n");
     }
 
@@ -45,7 +45,7 @@ int main() {
     // Bispo - movimento diagonal (cima + direita)
     // usando while
     printf("\nMovimento do Bispo:\n");
-    int b = 0;
+    int b = 1;
     while (b <= 5) {
         printf("Cima, Direita\n");
         b++;
@@ -55,7 +55,7 @@ int main() {
     // Rainha - movimento para a esquerda
     // usando do-while
     printf("\nMovimento da Rainha:\n");
-    int r = 0;
+    int r = 1;
     do {
         printf("Esquerda\n");
         r++;
