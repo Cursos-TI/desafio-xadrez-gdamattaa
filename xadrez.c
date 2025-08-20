@@ -163,24 +163,20 @@ int main() {
     // Torre
     printf("Movimento da Torre:\n");
     moverTorre(5);
-
-    printf("\n");
-
-    // Bispo
-    printf("Movimento do Bispo:\n");
-    moverBispo(5);
-
     printf("\n");
 
     // Rainha
     printf("Movimento da Rainha:\n");
     moverRainha(8);
+    printf("\n");
 
+    // Bispo
+    printf("Movimento do Bispo:\n");
+    moverBispo(5);
     printf("\n");
 
     // Cavalo
     moverCavalo();
-
     printf("\n");
 
     return 0;
